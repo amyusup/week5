@@ -1,0 +1,51 @@
+input[type="email"].form-login {
+  background: url(../image/login/mail.svg) no-repeat 5px 1px;
+  padding-left: 45px;
+}
+input[type="email"].form-login:focus{
+  background: url(../image/login/mail-active.svg) no-repeat 5px 1px;
+  padding-left: 45px;
+}
+
+input[type="text"].form-login,
+input[type="password"].form-login {
+  background: url(../image/login/lock.svg) no-repeat 5px 1px;
+  padding-left: 45px;
+}
+input[type="text"].form-login:focus,
+input[type="password"].form-login:focus{
+  background: url(../image/login/lock-active.svg) no-repeat 5px 1px;
+  padding-left: 45px;
+}
+input[type="text"].username{
+  background: url(../image/login/person.svg) no-repeat 5px 1px;
+  padding-left: 45px;
+}
+input[type="text"].username:focus{
+  background: url(../image/login/person-active.svg) no-repeat 5px 1px;
+  padding-left: 45px;
+}
+
+.show-password {
+  position: absolute;
+  right: 0;
+}
+
+.bt-login {
+  background: #dadada;
+  color: rgba(136, 136, 143, 1);
+  box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+  border-radius: 12px;
+
+}
+
+.image-responsive {
+  height: 25rem;
+  position: relative;
+}
+
+@media (min-width: 1440px) {
+  .imageResponsive {
+    height: 40rem;
+  }
+}
