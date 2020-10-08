@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
-// import API from '../../Axios/Api'
-import Axios from 'axios'
+import API from '../../Axios/Api'
+// import Axios from 'axios'
 
 const ChangePassword = (props) => {
   const images = props.data[0]
@@ -10,9 +10,10 @@ const ChangePassword = (props) => {
   const dataInput = {password:pass1}
 
   const handlerSubmit = () =>{
-    Axios.patch(`http://localhost:8000/users/${idUser}`, {password:'999'})
+    API.patch(`/users/${idUser}`, {password:pass2})
     .then((res)=>{
       console.log(res)
+      window.alert('Succes to change password')
     })
     .catch((err)=>console.log(err.message))
   }
