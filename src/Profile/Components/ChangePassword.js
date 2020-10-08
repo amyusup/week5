@@ -18,7 +18,7 @@ const ChangePassword = (props) => {
   }
     return (
         <div
-          class="col-12 col-md-6 p-4 mt-1 pb-0  pt-3 mb-1 card-zwallet h-100"
+          class="col-12 col-md-8 p-4 mt-1 pb-0  pt-3 mb-1 card-zwallet h-100"
         >
           <div class="row font-weight-bold pl-5">Change Password</div>
 
